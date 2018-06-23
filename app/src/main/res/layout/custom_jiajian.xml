@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:text="-"
+    android:id="@+id/reveiid"
+    android:textSize="20sp"
+        android:background="#F2F1F1"/>
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/edit_text"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:background="#F1F1F1"
+        />
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="+"
+        android:id="@+id/add"
+        android:textSize="20sp"
+        android:background="#F2F1F1"/>
+
+</LinearLayout>
